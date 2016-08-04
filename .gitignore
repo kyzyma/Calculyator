@@ -1,0 +1,12 @@
+
+Calc2/bin
+Calc2/obj
+
+*.pidb
+*.userprefs
+*.swp
+*.DS_Store
+*.nib
+*.suo
+*.user
+*.pfx

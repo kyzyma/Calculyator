@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/Fvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter First Value"
+        android:layout_x="11px"
+        android:layout_y="37px" />
+    <EditText
+        android:id="@+id/FVeditbox"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_x="220px"
+        android:layout_y="8px" />
+    <TextView
+        android:id="@+id/OPlable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the Operation"
+        android:textSize="14sp"
+        android:layout_x="11px"
+        android:layout_y="100px" />
+    <Button
+        android:id="@+id/addition"
+        android:layout_width="90px"
+        android:layout_height="80px"
+        android:text="@+string/plus"
+        android:textSize="20sp"
+        android:layout_x="280px"
+        android:layout_y="70px" />
+    <Button
+        android:id="@+id/subtraction"
+        android:layout_width="90px"
+        android:layout_height="80px"
+        android:text="@+string/minus"
+        android:textSize="20sp"
+        android:layout_x="380px"
+        android:layout_y="70px" />
+    <Button
+        android:id="@+id/multiplication"
+        android:layout_width="90px"
+        android:layout_height="80px"
+        android:text="@+string/multi"
+        android:textSize="20sp"
+        android:layout_x="480px"
+        android:layout_y="70px" />
+    <TextView
+        android:id="@+id/Svalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Second Value"
+        android:layout_x="11px"
+        android:layout_y="168px" />
+    <EditText
+        android:id="@+id/SVeditbox"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_x="259px"
+        android:layout_y="140px" />
+    <TextView
+        android:id="@+id/Confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:text="Confirm"
+        android:layout_x="11px"
+        android:layout_y="260px" />
+    <Button
+        android:id="@+id/equal"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:text="="
+        android:textSize="20sp"
+        android:layout_x="150px"
+        android:layout_y="226px" />
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Rlable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:text="Result"
+        android:layout_x="11px"
+        android:layout_y="337px" />
+    <EditText
+        android:id="@+id/Redittbox"
+        android:layout_width="240px"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_x="90px"
+        android:layout_y="308px" />
+</AbsoluteLayout>
